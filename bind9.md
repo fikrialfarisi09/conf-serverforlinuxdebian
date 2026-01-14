@@ -1,3 +1,9 @@
+# How to install bind9 in debian
+
+root@debian:~#apt update
+
+root@debian:~#apt install bind9
+
 root@debian:~#cd /etc/bind
 
 root@debian:/etc/bind# vim named.conf 
